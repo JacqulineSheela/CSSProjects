@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+h1{
+    display: inline;
+}
+ul{
+    display: inline;
+    margin-left: 60%;
+}
+li{
+    display:inline;
+    color: gray;
+    cursor: pointer;
+}
+li:hover{
+    color: white;
+}
+.searchbar{
+    text-align: center;
+    padding: 30px;
+}
+input{
+    width: 60%;
+    padding: 10px;
+
+}
+.perfumecontainer{
+    text-align: center;
+}
+
+.box{
+    border: solid black 2px;
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+}
+
+h2{
+    padding: 20px;
+}
+
+
+.Contact{
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
