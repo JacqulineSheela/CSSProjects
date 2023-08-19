@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-color: rgb(153, 187, 178);
+    display: flex;
+    border: solid black 1px;
+    position: relative;
+    z-index: 1;
+     position: sticky;
+     top: 0px;  
+}
+.navbar > h1{
+    padding: 5px;
+}
+.one{
+    margin-left: 60%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+
+}
+.section-one{
+    background-color: rgb(153, 187, 178);
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+button{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin-left: 10px;
+
+}
+.section-one > h1{
+    padding: 10px;
+}
+button ~ p{
+    color: gray;
+    padding: 10px;
+}
+.section-one > p{
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+.flower-one > img{
+    width: 200px;
+    height: 200px;
+}
+.flower-one{
+    
+    float: right;
+    animation-name: flower;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+
+}
+@keyframes flower {
+    0%{
+        margin-right: -200px;
+    }
+    100%{
+        margin-right: 100px;
+    }
+    
+}
+.section-two{
+    text-align: center;
+    padding: 20px;
+
+}
+.section-two > p{
+    padding: 10px;
+}
+.container-one{
+    display: flex;
+    justify-content: space-around;
+
+}
+.box{
+    text-align: center;
+    border: solid black 2px;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+}
+.Products{
+    text-align: center;
+    padding: 20px;
+}
+.section-three{
+    background-color: rgb(153, 187, 178);
+    margin-bottom: 50px;
+    padding: 100px;
+    padding-bottom: 10px;
+    
+    
+}
+.container-two{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.image-one >img{
+    
+    width: 200px;
+    height: 300px;
+    
+    position: relative;
+    
+    bottom: 120px;
+   
+}
+.image-one >h5{
+    position: relative;
+    bottom: 100px;
+    margin-left: 50px;
+}
+.image-two > img{
+    
+    width: 200px;
+    height: 300px;
+    position: relative;
+    
+    bottom: 50px;
+    
+}
+.image-two >h5{
+    position: relative;
+    bottom: 20px;
+    margin-left: 50px;
+    
+}
+
+.image-three > img{
+    
+    width: 200px;
+    height: 300px;
+    float: right;
+    position: relative;
+    bottom: 120px;
+}
+.image-three >h5{
+    position: relative;
+    bottom: 100px;
+    margin-left: 50px;
+}
+
+.section-four > h3{
+    padding: 20px;
+}
+
+.container-three{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-four > img{
+    
+    width: 200px;
+    height: 200px;
+    
+}
+.image-four >h5{
+    position: relative;
+    top: 20px;
+    margin-left: 40px;
+}
+
+.image-five > img{
+    
+    width: 200px;
+    height: 200px;
+    
+}
+.image-five >h5{
+    position: relative;
+    top: 20px;
+    margin-left: 40px;
+}
+
+.image-six > img{
+    
+    width: 200px;
+    height: 200px;
+    
+}
+.image-six >h5{
+    position: relative;
+    top: 20px;
+    margin-left: 40px;
+}
+
+.image-seven > img{
+    
+    width: 200px;
+    height: 200px;
+    
+}
+.image-seven >h5{
+    position: relative;
+    top: 20px;
+    margin-left: 40px;
+}
+
+.section-five{
+    background-color: rgb(153, 187, 178);
+    margin-top: 100px;
+    padding: 100px;
+}
+.image-eight > img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 120px;
+    left: -100px;
+    float: left;
+}
+.section-six{
+    padding: 20px;
+}
+.section-six > h3 {
+    margin-left: 500px;
+}
+
+.section-six > p {
+    margin-left: 350px;
+}
+.searchbar > input{
+    border: solid black 2px;
+    width: 60%;
+    height: 30px;
+    margin-left: 250px;
+    
+}
+.section-six > button{
+    margin-left: 500px;
+    width: 150px;
+    height: 30px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.footer{
+    background-color: rgb(153, 187, 178);
+    padding-top: 50px;
+    bottom: 5px;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+}
+.footer >h5{
+    color: gray;
+    padding-top: 30px;
+
+    margin-left: 5px;
+}
+    
+
+
+
